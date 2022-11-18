@@ -9,3 +9,10 @@ body {
   background-color: #000000;
   font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+@layer components {
+
+  .modalButton {
+    @apply flex h-6 w-6 md:h-11 md:w-11 items-center justify-center rounded-full border-2 border-[gray] bg-[#2a2a2a]/60 transition hover:border-white hover:bg-white/10;
+  }
+}
